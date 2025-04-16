@@ -1,4 +1,10 @@
-
+/**
+ * Code for getting customers' information
+ * @Version1.0
+ * @Authors: Boathotswe Beverly Mogaetsho, Kathleen Kgomotso, Catherine Molatedi & Kazo Ndjavera
+ * How to compile: javac Customer.java
+ * How to execute: java Customer
+ */
 public class Customer {
     private String name;
     private String phoneNumber;
@@ -36,6 +42,6 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer name= " + name + ", Phone Number= " + phoneNumber + ", Address= " + address;
+        return "Customer name= " + name + ", phoneNumber= " + phoneNumber + ", address= " + address;
     }
 }

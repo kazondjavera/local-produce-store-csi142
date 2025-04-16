@@ -1,35 +1,44 @@
-public class Product {
-    String productName;
-    int price;
-    int productID;
+/**
+ * Code to classify a product
+ * @Version1.0
+ * @Authors: Boathotswe Beverly Mogaetsho, Kathleen Kgomotso, Catherine Molatedi & Kazo Ndjavera
+ * How to compile: javac Product.java
+ * How to execute: java Product
+ */
+public class Product implements Purchasable {          // product details
+    private String productName;        
+    private double price;
+    private int productID;
 
-    public Product(String productName, int price, int productID) {
+    //constructor
+    public Product(String productName, double price, int productID) {
         this.productName = productName;
         this.price = price;
         this.productID = productID;
+        setPrice(price);    //use of setter to enforce validation
     }
-    //setter and getter methods
-    public String getProductName() {
+    
+    public String getProductName() {  //getter
         return productName;
     }
 
-    public void setProductName(String productName) {
+    public void setProductName(String productName) {   //setter
         this.productName = productName;
     }
     
-    public int getPrice() {
+    public double getPrice() {  // getter
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {  //setter
         this.price = price;
     }
 
-    public int getProductID() {
+    public int getProductID() {  //getter
         return productID;
     }
     
-    public void setProductID(int productID) {
+    public void setProductID(int productID) {   //setter
         this.productID = productID;
     }
 
