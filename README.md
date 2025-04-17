@@ -34,4 +34,4 @@ commit 4: "Kathleen Kgomotso created Delivarable Week 1 document"
 
 For Next Week: we intend to introduce domain-specific exceptions such as InvalidPhoneNumberException and InvalidPriceException in order to ensure that phone numbers are always in a certain specified format and that prices are always valid and never negative. 
 Repository Name: local-market-produce-store-csi142
-Repository Link: https://github.com/kazondjavera/ local-market-produce-store-csi142.git
+Repository Link: https://github.com/kazondjavera/local-market-produce-store-csi142.git
