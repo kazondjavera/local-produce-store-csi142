@@ -1,9 +1,9 @@
-public class Product2 {
+public class ProductException {
     private String name;
     private double price;
     private int productID; 
 
-    public Product2(String name, double price, int productID) throws NegativePriceException {
+    public ProductException(String name, double price, int productID) throws NegativePriceException {
         this.name = name;
         this.productID = productID;
         this.price = price;
@@ -40,7 +40,7 @@ public class Product2 {
 
     @Override
     public String toString() {
-        return "Product{" +"name=" + name + ", " +  "price=" + price + ", " + "productID=" + productID + "}";
+        return "Product{" +"Name=" + name + ", " +  "Price=" + price + ", " + "Product ID=" + productID + "}";
                
     }
 }
