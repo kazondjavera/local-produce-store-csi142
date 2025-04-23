@@ -3,7 +3,7 @@ public class Product2 {
     private double price;
     private int productID; 
 
-    public Product(String name, double price, int productID) throws NegativePriceException {
+    public Product2(String name, double price, int productID) throws NegativePriceException {
         this.name = name;
         this.productID = productID;
         this.price = price;
