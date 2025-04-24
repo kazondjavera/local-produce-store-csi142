@@ -1,9 +1,9 @@
-public class ProductException {
+public class Product2 {
     private String name;
     private double price;
     private int productID; 
 
-    public ProductException(String name, double price, int productID) throws NegativePriceException {
+    public Product2(String name, double price, int productID) throws NegativePriceException {
         this.name = name;
         this.productID = productID;
         this.price = price;
