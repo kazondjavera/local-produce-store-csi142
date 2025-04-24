@@ -13,9 +13,9 @@ public class Product implements Purchasable {          // product details
     //constructor
     public Product(String productName, double price, int productID) {
         this.productName = productName;
-        this.price = price;
+        //this.price = price; 
         this.productID = productID;
-        setPrice(price);    //use of setter to enforce validation
+        setPrice(price);    //use of setter to handle both validation and assignment
     }
     
     public String getProductName() {  //getter
