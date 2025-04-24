@@ -13,7 +13,7 @@ public class Product2Tester {
             Product2 beetroot = new Product2("Beetroot", -1.0, 202);
             System.out.println("Product created: " + beetroot);
         } catch (NegativePriceException e) {
-            System.out.println("Failed to create product: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 }
