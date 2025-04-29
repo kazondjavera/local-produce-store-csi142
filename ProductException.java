@@ -24,8 +24,8 @@ public class ProductException {
     }
     
     public void setPrice(double price) throws NegativePriceException { //throw exception
-        if (price < 0) {
-            throw new NegativePriceException("Price cannot be negative: " + price);
+        if (price <= 0) {
+            throw new NegativePriceException("Price cannot be zero or negative: " + price);
         }
         this.price = price;
     }
