@@ -2,13 +2,13 @@ public class ProductSearchTester{
     public static void main(String[] args){
         //creation of test products
         Product[] products = {
-            new product(1000),
-            new product(3000),
-            new product(1002)
+            new product(101),
+            new product(102),
+            new product(103)
         };
 
         //searching for an existing productID
-        int existingId = 3000;
+        int existingId = 103;
         Product foundProduct = ProductSearch.linearSearchByProductID(products, existingId);
         if (foundProduct != null && foundProduct.getProductID() == existingId){
             System.out.println("Product found");
