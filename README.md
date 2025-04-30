@@ -32,26 +32,36 @@ Key Features:
 
 
 Sorter2 and Sorter2Tester
+
 Purpose: Sorter2 is a class that implements selection sort by selecting certain prices and sorting them in acsending order.
+
 -Sorter2Tester is the tester class for it to check if it compiles and runs properly. Uses anarray to select products and their prices,prints the output before sorting and after sorting.
 
 
 ProductSearch and ProductSearchTester
+
 Purpose: ProductSearch is a class that implements linear search by finding a product using productID.
+
 -ProductSearchTester is the tester class to ensure it compiles and runs properly. Uses an array to select products and their ID's, prints "Found product" when productID is found and "Product not found" when productID is not found.
 
 
 ProductException and ProductExceptionTester
+
 Purpose: ProductException is a class that implements exceptions to make sure that product prices are non negative.
+
 -ProductExceptionTester is a tester class to ensure that it compiles and runs properly. Also uses ana array to get product prices.
 
 
 BinarySearchByPrice and BinarySearchByPriceTester
-Purpose: BinarySearchByPrice is a class that implements binary search by finding a price that exists in listed products
+
+Purpose: BinarySearchByPrice is a class that implements binary search by finding a price that exists in listed products.
+
 -BinarySearchByPriceTester is the tester class to ensure that it compiles and runs properly. Prints output to indicate if product was found by price and also prints output if no product was found by price.
 
 
 InsertionSort and InsertionSortTester
+
 Purpose: InsertionSort is a class that implements insertion sort by sorting prices in acsending order.
+
 -InsertionSortTester is the tester class for it to check if it compiles and runs properly. Uses an array to select products by their prices at random, prints output before sorting and after sorting. 
 
