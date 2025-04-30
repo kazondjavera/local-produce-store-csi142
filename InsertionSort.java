@@ -4,7 +4,7 @@ public class InsertionSort{
             Product key = products[i];
             int j = i - 1;
 
-            while (j>= 0 && products[j].getPice() > key.getPrice()){
+            while (j>= 0 && products[j].getPrice() > key.getPrice()){
                 products[j + 1]= products[j];
                 j--;
             }
